@@ -1,5 +1,5 @@
 $$
-$$ Usage> windbg.exe -c "$$< C:\windbg_init.txt"
+$$ Usage> windbg.exe -c "$$< C:\windbg_init\windbg_init.txt"
 $$
 $$ Initial script executing...
 $$
