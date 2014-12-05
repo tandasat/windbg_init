@@ -1,0 +1,12 @@
+$$
+$$ Usage> windbg.exe -c "$$< C:\windbg_init.txt"
+$$
+$$ Initial script executing...
+$$
+.load pykd.pyd
+.prefer_dml 1
+.asm no_code_bytes
+.reload
+$$
+$$ Initial script executed. Enjoy debugging! :)
+$$
