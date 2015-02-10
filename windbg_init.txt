@@ -6,8 +6,8 @@ $$
 .asm no_code_bytes
 .sympath srv*c:\Symbols*http://msdl.microsoft.com/download/symbols
 .reload
-.load C:\\windbg_init\\pretty\\x86\\pretty.dll
-.load C:\\windbg_init\\pretty\\x64\\pretty.dll
+.load C:\\windbg_init\\hs\\hs.dll
+.load C:\\windbg_init\\hs\\hs64.dll
 $$
 $$ Initial script executed. Enjoy debugging! :)
 $$
