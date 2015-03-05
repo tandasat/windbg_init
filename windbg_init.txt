@@ -4,10 +4,11 @@ $$
 .logappend C:\\Users\\user\\Desktop\\Windbg.log
 .prefer_dml 1
 .asm no_code_bytes
-.sympath srv*c:\Symbols*http://msdl.microsoft.com/download/symbols
-.reload
+$$.sympath srv*c:\Symbols*http://msdl.microsoft.com/download/symbols
+$$.reload
 .load C:\\windbg_init\\hs\\hs.dll
 .load C:\\windbg_init\\hs\\hs64.dll
+.load C:\\windbg_init\\sdbgext-release\\Release\\sdbgext.dll
 $$
 $$ Initial script executed. Enjoy debugging! :)
 $$
