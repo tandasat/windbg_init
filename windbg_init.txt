@@ -1,11 +1,13 @@
 $$
 $$ Usage> windbg.exe -c "$$< C:\windbg_init\windbg_init.txt"
 $$
-.logappend C:\\Users\\user\\Desktop\\Windbg.log
+.logappend C:\\windbg_init\\logs\\Windbg.log
 .prefer_dml 1
 .asm no_code_bytes
 $$.sympath srv*c:\Symbols*http://msdl.microsoft.com/download/symbols
-$$.reload
+.reload
+.load C:\\windbg_init\\qbsync\\x86\\sync.dll
+.load C:\\windbg_init\\qbsync\\x64\\sync.dll
 .load C:\\windbg_init\\hs\\hs.dll
 .load C:\\windbg_init\\hs\\hs64.dll
 .load C:\\windbg_init\\sdbgext-release\\Release\\sdbgext.dll
